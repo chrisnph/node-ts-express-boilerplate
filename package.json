@@ -1,0 +1,43 @@
+{
+  "name": "node-ts-express-boilerplate",
+  "version": "0.1.0",
+  "description": "minimal node express mongo with wuth boilerplate",
+  "scripts": {
+    "start:local": "NODE_ENV=.env.local ts-node src/index.ts",
+    "start:stage": "NODE_ENV=.env.stage ts-node src/index.ts",
+    "start:prod": "NODE_ENV=.env.prod ts-node src/index.ts",
+    "start": "NODE_ENV=.env.local nodemon --exec ts-node src/index.ts",
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "chrisnph",
+  "devDependencies": {
+    "@sentry/node": "^7.85.0",
+    "@sentry/profiling-node": "^1.2.6",
+    "@types/axios": "^0.14.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.21",
+    "@types/express-validator": "^3.0.0",
+    "@types/jest": "^29.5.11",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.7.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "bcrypt": "*",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.2"
+  }
+}
