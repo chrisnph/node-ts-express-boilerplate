@@ -3,7 +3,6 @@
 ## Quick Links
 
 - [Postman Documenter](https://documenter.getpostman.com/view/26190102/2s9YeN28yp)
-- [Frontend Example](https://github.com/chrisnph/react-ts-tailwind-boilerplate)
 
 ## Installation
 
