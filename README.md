@@ -18,7 +18,13 @@
    cd node-ts-express-boilerplate && npm i
    ```
 
-3. Run Project Locally
+3. Edit .env variable
+   
+   ````
+   mv .env.example .env.local
+   ````
+
+5. Run Project Locally
 
    ```
    npm run start:local
